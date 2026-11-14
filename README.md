@@ -20,7 +20,7 @@
   <tr>
     <td align="center"><img src="assets/icons/rocket.svg" width="18" height="18" alt=""><br><sub><b>Founder</b><br>QoutPlus · 2023</sub></td>
     <td align="center"><img src="assets/icons/building-2.svg" width="18" height="18" alt=""><br><sub><b>Co-founder</b><br>Tasheel Tech · 2026</sub></td>
-    <td align="center"><img src="assets/icons/trophy.svg" width="18" height="18" alt=""><br><sub><b>#1 on Google</b><br>for “rf4 trophies”</sub></td>
+    <td align="center"><img src="assets/icons/trophy.svg" width="18" height="18" alt=""><br><sub><b>2M+ views a month</b><br>on RF4 Trophies</sub></td>
     <td align="center"><img src="assets/icons/map-pin.svg" width="18" height="18" alt=""><br><sub><b>Oran, Algeria</b><br>since Dec 2024</sub></td>
     <td align="center"><img src="assets/icons/languages.svg" width="18" height="18" alt=""><br><sub><b>Arabic & English</b><br>both, daily</sub></td>
   </tr>
@@ -29,21 +29,23 @@
 <p><picture><source media="(prefers-color-scheme: light)" srcset="assets/cards/h-work-light.png"><img src="assets/cards/h-work-dark.png" alt="Selected work: Things I've shipped" width="100%"></picture></p>
 
 <p align="center">
-  <a href="https://rf4trophies.com"><picture><source media="(prefers-color-scheme: light)" srcset="assets/cards/rf4-light.png"><img src="assets/cards/rf4-dark.png" alt="RF4 Trophies: a trophy and fishing-spot guide for Russian Fishing 4. 118K+ visits a month, 219K in the peak month, about 270K pageviews in one week, 17.4K Google clicks in 28 days, #1 for rf4 trophies, about 10K pages indexed" width="100%"></picture></a>
+  <a href="https://abdulhkim.com/work/rf4-trophies/"><picture><source media="(prefers-color-scheme: light)" srcset="assets/cards/rf4-light.png"><img src="assets/cards/rf4-dark.png" alt="RF4 Trophies: a trophy and fishing-spot guide for Russian Fishing 4. 2M+ views a month, 118K+ visits a month, 219K in the peak month, 17.4K Google clicks in 28 days, #1 for rf4 trophies, about 10K pages indexed" width="100%"></picture></a>
 </p>
 
 <p align="center">
-  <a href="https://menupasha.sy"><picture><source media="(prefers-color-scheme: light)" srcset="assets/cards/menupasha-light.png"><img src="assets/cards/menupasha-dark.png" alt="MenuPasha: restaurant and café platform with digital menus, orders, branches and reporting" width="49%"></picture></a>
-  <a href="https://apps.odoo.com/apps/modules/17.0/autozatca"><picture><source media="(prefers-color-scheme: light)" srcset="assets/cards/autozatca-light.png"><img src="assets/cards/autozatca-dark.png" alt="AutoZATCA: free ZATCA e-invoicing module for Odoo 17" width="49%"></picture></a>
+  <a href="https://abdulhkim.com/work/menupasha/"><picture><source media="(prefers-color-scheme: light)" srcset="assets/cards/menupasha-light.png"><img src="assets/cards/menupasha-dark.png" alt="MenuPasha: restaurant and café platform with digital menus, orders, branches and reporting" width="49%"></picture></a>
+  <a href="https://abdulhkim.com/work/autozatca/"><picture><source media="(prefers-color-scheme: light)" srcset="assets/cards/autozatca-light.png"><img src="assets/cards/autozatca-dark.png" alt="AutoZATCA: free ZATCA e-invoicing module for Odoo 17" width="49%"></picture></a>
 </p>
 <p align="center">
-  <a href="https://tabibon.com"><picture><source media="(prefers-color-scheme: light)" srcset="assets/cards/tabibon-light.png"><img src="assets/cards/tabibon-dark.png" alt="Tabibon: doctor booking app" width="49%"></picture></a>
-  <a href="https://shariii.com"><picture><source media="(prefers-color-scheme: light)" srcset="assets/cards/shariii-light.png"><img src="assets/cards/shariii-dark.png" alt="Shariii: classified ads marketplace with web and mobile apps" width="49%"></picture></a>
+  <a href="https://abdulhkim.com/work/tabibon/"><picture><source media="(prefers-color-scheme: light)" srcset="assets/cards/tabibon-light.png"><img src="assets/cards/tabibon-dark.png" alt="Tabibon: doctor booking app" width="49%"></picture></a>
+  <a href="https://abdulhkim.com/work/shariii/"><picture><source media="(prefers-color-scheme: light)" srcset="assets/cards/shariii-light.png"><img src="assets/cards/shariii-dark.png" alt="Shariii: classified ads marketplace with web and mobile apps" width="49%"></picture></a>
 </p>
 <p align="center">
-  <a href="mailto:hello@abdulhkim.com"><picture><source media="(prefers-color-scheme: light)" srcset="assets/cards/tadbeer-light.png"><img src="assets/cards/tadbeer-dark.png" alt="Tadbeer: POS system with a customer loyalty app" width="49%"></picture></a>
-  <a href="mailto:hello@abdulhkim.com"><picture><source media="(prefers-color-scheme: light)" srcset="assets/cards/systems-light.png"><img src="assets/cards/systems-dark.png" alt="Custom CRM and ERP systems and integrations" width="49%"></picture></a>
+  <a href="https://abdulhkim.com/work/tadbeer/"><picture><source media="(prefers-color-scheme: light)" srcset="assets/cards/tadbeer-light.png"><img src="assets/cards/tadbeer-dark.png" alt="Tadbeer: POS system with a customer loyalty app" width="49%"></picture></a>
+  <a href="https://abdulhkim.com/work/custom-crm-erp/"><picture><source media="(prefers-color-scheme: light)" srcset="assets/cards/systems-light.png"><img src="assets/cards/systems-dark.png" alt="Custom CRM and ERP systems and integrations" width="49%"></picture></a>
 </p>
+
+<p align="center"><a href="https://abdulhkim.com/work/"><b>See every project on abdulhkim.com →</b></a></p>
 
 <p><picture><source media="(prefers-color-scheme: light)" srcset="assets/cards/h-services-light.png"><img src="assets/cards/h-services-dark.png" alt="What I do" width="100%"></picture></p>
 
@@ -55,7 +57,7 @@
 |:-:|---|---|---|
 | <img src="assets/icons/building-2.svg" width="22" height="22" alt=""> | **Co-founder** | [**Tasheel Tech**](https://tasheeltech.sy): a digital product studio for websites, mobile apps and business systems | Apr 2026 – now |
 | <img src="assets/icons/rocket.svg" width="22" height="22" alt=""> | **Founder** | [**QoutPlus**](https://qoutplus.com): web design and development, SEO, apps and ad management | Mar 2023 – now |
-| <img src="assets/icons/fish.svg" width="22" height="22" alt=""> | **Creator** | [**RF4 Trophies**](https://rf4trophies.com): the Russian Fishing 4 trophy guide above | Aug 2024 – now |
+| <img src="assets/icons/fish.svg" width="22" height="22" alt=""> | **Creator** | [**RF4 Trophies**](https://rf4trophies.com): the Russian Fishing 4 trophy guide above, 2M+ views a month | Aug 2024 – now |
 | <img src="assets/icons/briefcase.svg" width="22" height="22" alt=""> | **IT Manager** <sub>(part-time)</sub> | [**CNR WOOD**](https://cnrwood.com): built automation tools and migrated the production software | Jul 2021 – Nov 2024 |
 
 <p><picture><source media="(prefers-color-scheme: light)" srcset="assets/cards/h-stack-light.png"><img src="assets/cards/h-stack-dark.png" alt="Tools of the trade" width="100%"></picture></p>
