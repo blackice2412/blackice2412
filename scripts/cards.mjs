@@ -20,9 +20,9 @@ const projects = [
 
 const rf4 = {
   stats: [
+    ['2M+', 'views a month'],
     ['118K+', 'visits a month'],
     ['219K', 'visits in the peak month'],
-    ['~270K', 'pageviews in one week'],
     ['17.4K', 'Google clicks in 28 days'],
     ['#1', 'for “rf4 trophies”'],
     ['~10K', 'pages indexed'],
