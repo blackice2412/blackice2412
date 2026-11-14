@@ -1,0 +1,14 @@
+{
+  "name": "blackice2412-profile",
+  "private": true,
+  "type": "module",
+  "description": "Builds the image cards and icons for the GitHub profile README",
+  "scripts": {
+    "cards": "node scripts/cards.mjs"
+  },
+  "devDependencies": {
+    "@fontsource-variable/fraunces": "5.3.0",
+    "@fontsource-variable/manrope": "5.3.0",
+    "lucide-static": "0.469.0"
+  }
+}
