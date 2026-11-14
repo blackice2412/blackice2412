@@ -1,6 +1,6 @@
 // Renders the README's image cards (dark + light) and line icons into assets/.
-// Same look as abdulhkim.com: graphite / paper, Fraunces + Manrope, red dot,
-// amber highlights. Run: npm install && npm run cards (needs Playwright).
+// Same look as abdulhkim.com: charcoal / paper, Fraunces + Manrope, teal dot,
+// sand highlights (Teal & Sand palette). Run: npm install && npm run cards (needs Playwright).
 import { readFileSync, writeFileSync, mkdirSync } from 'node:fs';
 import { createRequire } from 'node:module';
 import { resolve } from 'node:path';
@@ -36,19 +36,19 @@ const services = [
   { icon: 'server-cog', title: 'Self-hosting', text: 'Docker, Dokploy and Linux on your own servers.' },
 ];
 
-// small icons used inline in the README headings and lists (amber reads on both GitHub themes)
+// small icons used inline in the README headings and lists (mid teal reads on both GitHub themes)
 const inlineIcons = ['rocket', 'building-2', 'briefcase', 'map-pin', 'languages', 'trophy', 'sparkles', 'code-xml', 'layers', 'mail', 'calendar', 'fish', 'hammer', 'send', 'activity'];
 
 /* ----------------------------------------------------------------- theme */
 
 const THEMES = {
   dark: {
-    bg: '#161615', panel: '#1f1e1c', fg: '#f3ecdf', fg2: '#a9a29a', rule: 'rgba(243,236,223,.13)', accent: '#f4a640', italic: '#d0682e', ring: 'rgba(243,236,223,.22)',
-    glow: 'radial-gradient(70% 90% at 100% 0%, rgba(214,61,27,.22), transparent 62%)',
+    bg: '#101616', panel: '#172020', fg: '#eef3f2', fg2: '#9aa7a5', rule: 'rgba(238,243,242,.13)', accent: '#e8cf9e', italic: '#56c2bb', ring: 'rgba(238,243,242,.22)',
+    glow: 'radial-gradient(70% 90% at 100% 0%, rgba(15,126,125,.26), transparent 62%)',
   },
   light: {
-    bg: '#f3ecdf', panel: '#ece3d2', fg: '#1c1713', fg2: '#675b4d', rule: 'rgba(28,23,19,.14)', accent: '#b0450e', italic: '#b0450e', ring: 'rgba(28,23,19,.2)',
-    glow: 'radial-gradient(70% 90% at 100% 0%, rgba(214,61,27,.12), transparent 62%)',
+    bg: '#f4f0e6', panel: '#ebe6da', fg: '#132020', fg2: '#5b6563', rule: 'rgba(19,32,32,.14)', accent: '#0d6867', italic: '#0d6867', ring: 'rgba(19,32,32,.2)',
+    glow: 'radial-gradient(70% 90% at 100% 0%, rgba(15,126,125,.14), transparent 62%)',
   },
 };
 
@@ -74,7 +74,7 @@ html,body{width:${w}px;height:${h}px;background:transparent}
 body{font-family:M,sans-serif;color:${t.fg};-webkit-font-smoothing:antialiased}
 .card{position:relative;width:100%;height:100%;border-radius:22px;border:1px solid ${t.rule};background:${t.glow},${t.bg};overflow:hidden}
 .label{display:flex;align-items:center;gap:10px;font-size:11px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:${t.fg2}}
-.label:before{content:'';width:7px;height:7px;border-radius:50%;background:#d63d1b;box-shadow:0 0 0 4px rgba(214,61,27,.2)}
+.label:before{content:'';width:7px;height:7px;border-radius:50%;background:#0f7e7d;box-shadow:0 0 0 4px rgba(15,126,125,.22)}
 .tag{font-size:11px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:${t.accent}}
 .serif{font-family:F,serif;font-weight:400;letter-spacing:-.03em}
 em{font-family:F,serif;font-style:italic;font-weight:360;color:${t.italic}}
@@ -98,16 +98,16 @@ const projectCard = (t, p, i) => `${base(t, 410, 236)}
   <p class="tag tagrow">${p.tag}</p>
   <p class="serif name">${p.name}</p>
   <p class="text">${p.text}</p>
-  <div class="foot">${p.host ? `${p.host} ${ARROW('#d63d1b')}` : `<span style="color:${t.fg2};font-weight:600">Ask me about it</span>`}</div>
+  <div class="foot">${p.host ? `${p.host} ${ARROW('#0f7e7d')}` : `<span style="color:${t.fg2};font-weight:600">Ask me about it</span>`}</div>
 </div>`;
 
 const rf4Card = (t) => `${base(t, 840, 330)}
 <style>
 .card{display:grid;grid-template-columns:300px 1fr;gap:34px;padding:34px 36px;align-items:center}
-.ic{width:46px;height:46px;border-radius:50%;background:#d63d1b;display:grid;place-items:center;margin-bottom:18px}
+.ic{width:46px;height:46px;border-radius:50%;background:#0f7e7d;display:grid;place-items:center;margin-bottom:18px}
 .name{font-size:46px;line-height:1;margin-top:10px}
 .text{margin-top:12px;font-size:14.5px;line-height:1.55;color:${t.fg2}}
-.btn{display:inline-flex;align-items:center;gap:8px;margin-top:18px;padding:10px 16px;border-radius:999px;background:#d63d1b;color:#fff;font-size:13px;font-weight:700}
+.btn{display:inline-flex;align-items:center;gap:8px;margin-top:18px;padding:10px 16px;border-radius:999px;background:#0f7e7d;color:#fff;font-size:13px;font-weight:700}
 .stats{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid ${t.rule}}
 .stat{padding:16px 14px 18px;border-bottom:1px solid ${t.rule};border-right:1px solid ${t.rule}}
 .stat:nth-child(3n){border-right:0}
@@ -131,7 +131,7 @@ const servicesCard = (t) => `${base(t, 840, 214)}
 .s{padding:26px 22px;border-right:1px solid ${t.rule};display:flex;flex-direction:column;gap:10px}
 .s:last-child{border-right:0}
 .row{display:flex;justify-content:space-between;align-items:center}
-.n{font-family:F,serif;font-style:italic;font-size:16px;color:#d63d1b}
+.n{font-family:F,serif;font-style:italic;font-size:16px;color:#0f7e7d}
 .title{font-family:F,serif;font-size:21px;line-height:1.15;letter-spacing:-.015em;margin-top:8px}
 .text{font-size:13px;line-height:1.5;color:${t.fg2}}
 </style>
@@ -157,6 +157,29 @@ const headings = [
   ['contact', 'Contact', 'Let’s <em>talk</em>'],
 ];
 
+
+/* The profile header: "I make stu|ff" with an autocomplete suggestion. */
+const headerCard = () => `<style>${FONTS}
+*{margin:0;box-sizing:border-box}
+html,body{width:1280px;height:320px}
+body{position:relative;overflow:hidden;font-family:M,sans-serif;color:#eef3f2;
+background:radial-gradient(45% 80% at 72% 30%,rgba(15,126,125,.20),transparent 70%),radial-gradient(40% 70% at 10% 100%,rgba(232,207,158,.05),transparent 70%),#101616}
+.rule{position:absolute;left:0;right:0;height:1px;background:rgba(238,243,242,.11)}
+.title{position:absolute;left:0;right:0;top:78px;text-align:center;font-family:F,serif;font-size:122px;font-weight:400;letter-spacing:-.045em;line-height:1;white-space:nowrap}
+.title em{font-style:italic;font-weight:360;color:#56c2bb}
+.title .ghost{font-style:italic;font-weight:360;color:rgba(232,207,158,.32)}
+.caret{display:inline-block;width:7px;height:96px;margin:0 4px 0 6px;vertical-align:-8px;border-radius:2px;background:#e8cf9e;box-shadow:0 0 22px rgba(232,207,158,.45)}
+.pop{position:absolute;top:218px;display:flex;align-items:center;gap:16px;padding:12px 14px 12px 18px;border-radius:14px;background:#172020;border:1px solid rgba(238,243,242,.12);box-shadow:0 18px 40px -12px rgba(0,0,0,.6)}
+.pop i{width:10px;height:10px;border-radius:50%;background:#0f7e7d;box-shadow:0 0 0 5px rgba(15,126,125,.25)}
+.pop span{font-family:F,serif;font-style:italic;font-size:34px;letter-spacing:-.02em;color:#9aa7a5}
+.pop span b{font-weight:360;color:#e8cf9e}
+.pop kbd{display:grid;place-items:center;width:54px;height:36px;border-radius:8px;border:1px solid rgba(238,243,242,.16);background:rgba(238,243,242,.04);color:#9aa7a5}
+</style>
+<div class="rule" style="top:50px"></div><div class="rule" style="top:269px"></div>
+<p class="title" id="t">I make <em>stu</em><span class="caret" id="c"></span><span class="ghost">ff</span></p>
+<div class="pop" id="p"><i></i><span>stu<b>ff</b></span><kbd><svg width="22" height="16" viewBox="0 0 22 16"><path d="M2 8h14M11 3l5 5-5 5M20 2v12" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></kbd></div>
+<script>document.fonts.ready.then(()=>{const c=document.getElementById('c').getBoundingClientRect();document.getElementById('p').style.left=(c.left-34)+'px'})</script>`;
+
 /* ---------------------------------------------------------------- render */
 
 mkdirSync('assets/cards', { recursive: true });
@@ -177,8 +200,9 @@ for (const [mode, t] of Object.entries(THEMES)) {
   for (const [i, p] of projects.entries()) await shot(projectCard(t, p, i), 410, 236, `assets/cards/${p.key}-${mode}.png`);
   for (const [key, label, title] of headings) await shot(dividerCard(t, label, title), 840, 96, `assets/cards/h-${key}-${mode}.png`);
 }
+await shot(headerCard(), 1280, 320, 'assets/header.png');
 await browser.close();
 
-for (const name of inlineIcons) writeFileSync(`assets/icons/${name}.svg`, icon(name, 24, '#f4a640', 2) + '\n');
+for (const name of inlineIcons) writeFileSync(`assets/icons/${name}.svg`, icon(name, 24, '#2a9d99', 2) + '\n');
 
 console.log('Cards and icons written to assets/.');
