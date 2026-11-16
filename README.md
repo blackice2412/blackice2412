@@ -89,4 +89,8 @@
   <a href="https://www.linkedin.com/in/abdulhkim-alahmad/"><img src="https://img.shields.io/badge/LinkedIn-172020?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgPiA8cGF0aCBkPSJNMTYgOGE2IDYgMCAwIDEgNiA2djdoLTR2LTdhMiAyIDAgMCAwLTItMiAyIDIgMCAwIDAtMiAydjdoLTR2LTdhNiA2IDAgMCAxIDYtNnoiIC8%2BIDxyZWN0IHdpZHRoPSI0IiBoZWlnaHQ9IjEyIiB4PSIyIiB5PSI5IiAvPiA8Y2lyY2xlIGN4PSI0IiBjeT0iNCIgcj0iMiIgLz4gPC9zdmc%2B&logoColor=white" alt="LinkedIn"></a>
 </p>
 
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=blackice2412&style=for-the-badge&color=0f7e7d&label=Visitors" alt="Profile visitors">
+</p>
+
 <p align="center"><sub>Made by me, obviously. Cards are rendered by <a href="scripts/cards.mjs">scripts/cards.mjs</a>.</sub></p>
